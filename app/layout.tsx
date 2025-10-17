@@ -3,7 +3,7 @@ import * as React from "react";
 import type { Metadata } from "next";
 import { Navbar } from "../components/Navbar";
 
-export const metadata: Metadata = {
+export const metadata = {
   // ...
 };
   title: "Euro Top Construct – Villamos kivitelezés, biztonsági rendszerek, napelemek",
