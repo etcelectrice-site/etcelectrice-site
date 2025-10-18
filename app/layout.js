@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import { Navbar } from "../components/Navbar";
 import * as React from "react";
 
-// nincs TypeScript típus, így nem dob hibát
 export const metadata = {
   title: "Euro Top Construct – Villamos kivitelezés, biztonsági rendszerek, napelemek",
   description:
@@ -10,9 +9,7 @@ export const metadata = {
   metadataBase: new URL("https://www.etcelectrice.net")
 };
 
-type Props = { children: React.ReactNode };
-
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({ children }) {
   return (
     <html lang="hu">
       <body className="bg-white text-slate-800">
