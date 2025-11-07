@@ -30,6 +30,7 @@ export default function PageHU() {
               <li><strong>Székhely:</strong> Gyergyóújfalu &nbsp;&nbsp; <strong>Munkapont:</strong> Gyergyószentmiklós</li>
             </ul>
             <div className="mt-6">
+              {/*
               <h3 className="font-semibold">Időpontfoglalás (földelésmérés)</h3>
               <iframe className="mt-2 w-full h-96 rounded-2xl border" src="https://cal.com/your-org/ground-testing?embed=1"></iframe>
             </div>
@@ -42,6 +43,7 @@ export default function PageHU() {
               <button className="bg-accent text-white px-5 py-3 rounded-xl">Küldés</button>
             </div>
           </form>
+          */}
         </div>
       </section>
     </main>
