@@ -25,6 +25,9 @@ export default function PageHU() {
             <h2 className="text-2xl font-bold">Kapcsolat</h2>
             <ul className="mt-5 space-y-2">
               <li><strong>E-mail:</strong> <a className="underline" href="mailto:info@etcelectrice.net">info@etcelectrice.net</a></li>
+              <li><strong>Telefon:</strong> <a className="underline" href="tel:+40742074084">0742 074 084</a></li>
+              <li><strong>Facebook:</strong> <a className="underline" href="https://facebook.com/eurotopconstruct" target="_blank">facebook.com/eurotopconstruct</a></li>
+              <li><strong>Székhely:</strong> Gyergyóújfalu &nbsp;&nbsp; <strong>Munkapont:</strong> Gyergyószentmiklós</li>
             </ul>
             <div className="mt-6">
               <h3 className="font-semibold">Időpontfoglalás (földelésmérés)</h3>

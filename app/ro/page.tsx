@@ -25,6 +25,7 @@ export default function PageRO() {
             <h2 className="text-2xl font-bold">Contact</h2>
             <ul className="mt-5 space-y-2">
               <li><strong>E-mail:</strong> <a className="underline" href="mailto:info@etcelectrice.net">info@etcelectrice.net</a></li>
+              <p><strong>Telefon:</strong> <a href="tel:+40742074084" className="hover:underline">0742 074 084</a></p>
             </ul>
             <div className="mt-6">
               <h3 className="font-semibold">Programare (măsurare priză de pământ)</h3>
