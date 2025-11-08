@@ -30,20 +30,6 @@ export default function PageHU() {
               <li><strong>Székhely:</strong> Gyergyóújfalu &nbsp;&nbsp; <strong>Munkapont:</strong> Gyergyószentmiklós</li>
             </ul>
             <div className="mt-6">
-              {/*
-              <h3 className="font-semibold">Időpontfoglalás (földelésmérés)</h3>
-              <iframe className="mt-2 w-full h-96 rounded-2xl border" src="https://cal.com/your-org/ground-testing?embed=1"></iframe>
-            </div>
-          </div>
-          <form action="/api/contact" method="post" className="bg-white/5 p-6 rounded-2xl border border-white/10">
-            <div className="grid gap-4">
-              <input name="name" required placeholder="Név" className="p-3 rounded-xl text-slate-900" />
-              <input name="email" type="email" required placeholder="E-mail" className="p-3 rounded-xl text-slate-900" />
-              <textarea name="message" rows={4} placeholder="Üzenet" className="p-3 rounded-xl text-slate-900" />
-              <button className="bg-accent text-white px-5 py-3 rounded-xl">Küldés</button>
-            </div>
-          </form>
-          */}
         </div>
       </section>
     </main>
