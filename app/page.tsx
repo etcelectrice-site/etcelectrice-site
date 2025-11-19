@@ -5,7 +5,7 @@ export default function PageHU() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900">Megbízható villamos kivitelező a régióban</h1>
           <p className="mt-4 text-slate-600 text-lg">
-            0,4 kV-ig tervezés–kivitelezés–szerviz, villámvédelem és földelés (SR EN), biztonsági és tűzjelző rendszerek, napelem (ON/OFF-grid).
+            0,4 kV-ig tervezés–kivitelezés–szerviz, villámvédelem és földelés (SR EN), biztonsági és tűzjelző rendszerek, napelem rendszerek.
           </p>
         </div>
       </section>
