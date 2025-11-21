@@ -15,7 +15,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="py-12 bg-white">
+      <section id="services" className="py-12 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-slate-900">Servicii</h2>
           <ul className="mt-4 space-y-2 text-slate-700">
@@ -23,7 +23,7 @@ export default function Page() {
             <li>• Paratrăsnet și prize de pământ</li>
             <li>• Sisteme de securitate, CCTV, alarme</li>
             <li>• Sisteme de detecție și avertizare incendiu</li>
-            <li>• Sisteme fotovoltaice</li>
+            <li>• Sisteme fotovoltaice (ON/OFF-grid)</li>
           </ul>
         </div>
       </section>
