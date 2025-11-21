@@ -1,34 +1,24 @@
-import Link from "next/link";
-import Image from "next/image";
-
-type NavbarProps = {
-  isHU?: boolean;
-};
-
-export function Navbar({ isHU }: NavbarProps) {
-  return (
-    <header className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-  <div className="relative w-20 h-20">
+<div className="flex items-center gap-4">
+  {/* LOGÓ */}
+  <div className="relative w-32 h-10 flex items-center">
     <Image
       src="/logo WEB.jpg"
       alt="Euro Top Construct logo"
       fill
-      className="object-contain rounded-xl"
+      className="object-contain"
       priority
     />
   </div>
-  <div className="leading-tight">
-    <div className="font-semibold text-slate-900">Euro Top Construct</div>
-    <div className="text-xs text-slate-500">
+
+  {/* ALÁÍRÁS (nagyobb, középre rendezve) */}
+  <div className="leading-tight flex flex-col justify-center">
+    <div className="text-base sm:text-lg font-semibold text-slate-900 text-center">
       {isHU
         ? "Villamos kivitelezés & biztonsági rendszerek"
         : "Instalații electrice & sisteme de securitate"}
     </div>
   </div>
 </div>
-
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a href="#services" className="hover:text-accent">
             {isHU ? "Szolgáltatások" : "Servicii"}
