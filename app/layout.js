@@ -3,10 +3,10 @@ import { Navbar } from "../components/Navbar";
 import * as React from "react";
 
 export const metadata = {
-  title: "Euro Top Construct – Villamos kivitelezés, biztonsági rendszerek, napelemek",
+  title: "Euro Top Construct – Instalații electrice, sisteme de securitate, panouri fotovoltaice",
   description:
-    "Euro Top Construct: villamos kivitelezés 0,4 kV-ig, villámvédelem, biztonsági rendszerek, tűzjelző rendszerek, napelem (ON/OFF-grid).",
-  metadataBase: new URL("https://www.etcelectrice.net")
+    "Euro Top Construct: instalații electrice până la 0,4 kV, protecție la trăsnet și prize de pământ, sisteme de securitate și detecție incendiu, panouri fotovoltaice (ON/OFF-grid), în județul Harghita și împrejurimi.",
+  metadataBase: new URL("https://www.etcelectrice.net"),
 };
 
 export default function RootLayout({ children }) {
