@@ -14,8 +14,6 @@ export function Navbar({ isHU }: NavbarProps) {
           </div>
           <div className="leading-tight">
             <div className="font-semibold text-slate-900">Euro Top Construct</div>
-
-            {/* Alcím nyelv szerint */}
             <div className="text-xs text-slate-500">
               {isHU
                 ? "Villamos kivitelezés & biztonsági rendszerek"
@@ -25,19 +23,15 @@ export function Navbar({ isHU }: NavbarProps) {
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          {/* Menüelemek */}
           <a href="#services" className="hover:text-accent">
             {isHU ? "Szolgáltatások" : "Servicii"}
           </a>
-
           <a href="#licenses" className="hover:text-accent">
             {isHU ? "Engedélyek" : "Licențe"}
           </a>
-
           <a href="#portfolio" className="hover:text-accent">
             {isHU ? "Referenciák" : "Referințe"}
           </a>
-
           <a
             href="#contact"
             className="inline-flex items-center gap-2 bg-brand text-white px-4 py-2 rounded-xl hover:bg-accent transition"
@@ -45,7 +39,6 @@ export function Navbar({ isHU }: NavbarProps) {
             {isHU ? "Ajánlatkérés" : "Cere ofertă"}
           </a>
 
-          {/* Nyelvváltó */}
           <Link
             href={isHU ? "/" : "/hu"}
             className="ml-2 underline text-slate-600 hover:text-slate-900"
