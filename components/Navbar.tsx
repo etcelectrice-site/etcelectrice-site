@@ -10,7 +10,7 @@ export function Navbar({ isHU }: NavbarProps) {
     <header className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-  <div className="relative w-12 h-12">
+  <div className="relative w-20 h-20">
     <Image
       src="/logo WEB.jpg"
       alt="Euro Top Construct logo"
