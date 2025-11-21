@@ -1,15 +1,10 @@
-'use client';
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
-export function Navbar() {
-  const pathname = usePathname();
+type NavbarProps = {
+  isHU?: boolean;
+};
 
-  // NYELV ELDÖNTÉSE:
-  // Ha az URL /hu -val kezdődik → magyar
-  // Egyébként → román (alapértelmezett)
-  const isHU = pathname?.startsWith("/hu");
-
+export function Navbar({ isHU }: NavbarProps) {
   return (
     <header className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -19,18 +14,17 @@ export function Navbar() {
           </div>
           <div className="leading-tight">
             <div className="font-semibold text-slate-900">Euro Top Construct</div>
-            
+
             {/* Alcím nyelv szerint */}
             <div className="text-xs text-slate-500">
-              {isHU 
-                ? "Villamos kivitelezés & biztonsági rendszerek" 
+              {isHU
+                ? "Villamos kivitelezés & biztonsági rendszerek"
                 : "Instalații electrice & sisteme de securitate"}
             </div>
           </div>
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          
           {/* Menüelemek */}
           <a href="#services" className="hover:text-accent">
             {isHU ? "Szolgáltatások" : "Servicii"}
@@ -52,8 +46,8 @@ export function Navbar() {
           </a>
 
           {/* Nyelvváltó */}
-          <Link 
-            href={isHU ? "/" : "/hu"} 
+          <Link
+            href={isHU ? "/" : "/hu"}
             className="ml-2 underline text-slate-600 hover:text-slate-900"
           >
             {isHU ? "RO" : "HU"}
