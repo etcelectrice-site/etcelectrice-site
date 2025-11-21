@@ -10,18 +10,24 @@ export function Navbar({ isHU }: NavbarProps) {
     <header className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-brand grid place-items-center text-white font-bold">
-            ET
-          </div>
-          <div className="leading-tight">
-            <div className="font-semibold text-slate-900">Euro Top Construct</div>
-            <div className="text-xs text-slate-500">
-              {isHU
-                ? "Villamos kivitelezés & biztonsági rendszerek"
-                : "Instalații electrice & sisteme de securitate"}
-            </div>
-          </div>
-        </div>
+  <div className="relative w-10 h-10">
+    <Image
+      src="/logo WEB.jpg"
+      alt="Euro Top Construct logo"
+      fill
+      className="object-contain rounded-xl"
+      priority
+    />
+  </div>
+  <div className="leading-tight">
+    <div className="font-semibold text-slate-900">Euro Top Construct</div>
+    <div className="text-xs text-slate-500">
+      {isHU
+        ? "Villamos kivitelezés & biztonsági rendszerek"
+        : "Instalații electrice & sisteme de securitate"}
+    </div>
+  </div>
+</div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a href="#services" className="hover:text-accent">
