@@ -23,7 +23,7 @@ export default function Page() {
             <li>• Paratrăsnet și prize de pământ</li>
             <li>• Sisteme de securitate, CCTV, alarme</li>
             <li>• Sisteme de detecție și avertizare incendiu</li>
-            <li>• Sisteme fotovoltaice (ON/OFF-grid)</li>
+            <li>• Sisteme fotovoltaice</li>
           </ul>
         </div>
       </section>
