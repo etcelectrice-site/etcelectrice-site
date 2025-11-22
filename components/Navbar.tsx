@@ -11,7 +11,7 @@ export function Navbar({ isHU }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-4">
   {/* Logó */}
-  <div className="relative w-56 h-14">
+  <div className="relative w-64 h-16">
     <Image
       src="/logo-WEB.jpg"
       alt="Euro Top Construct logo"
