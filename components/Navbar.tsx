@@ -13,13 +13,21 @@ export function Navbar({ isHU }: NavbarProps) {
   {/* Logó */}
   <div className="relative w-40 h-10">
     <Image
-      src="/logo-WEB.jpg"
+      src="/logo WEB.jpg"
       alt="Euro Top Construct logo"
       fill
       className="object-contain"
       priority
     />
   </div>
+
+  {/* Szlogen vízszintesen a logó mellett */}
+  <div className="text-sm sm:text-base font-semibold text-slate-900 leading-snug">
+    {isHU
+      ? "Villamos kivitelezés & biztonsági rendszerek"
+      : "Instalații electrice & sisteme de securitate"}
+  </div>
+</div>
 
   {/* Szlogen vízszintesen a logó mellett */}
   <div className="text-sm sm:text-base font-semibold text-slate-900 leading-snug">
