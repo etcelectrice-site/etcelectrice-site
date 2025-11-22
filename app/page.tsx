@@ -27,27 +27,36 @@ export default function Page() {
           </ul>
         </div>
       </section>
+<section id="contact" className="py-12 bg-slate-900 text-slate-50">
+  <div className="max-w-5xl mx-auto px-4 space-y-2">
+    <h2 className="text-2xl font-bold">Contact</h2>
 
-      <section id="contact" className="py-12 bg-slate-900 text-slate-50">
-        <div className="max-w-5xl mx-auto px-4 space-y-2">
-          <h2 className="text-2xl font-bold">Contact</h2>
-          <p>
-            <strong>E-mail: </strong>
-            <a
-              className="underline hover:no-underline"
-              href="mailto:info@etcelectrice.net"
-            >
-              info@etcelectrice.net
-            </a>
-          </p>
-          <p>
-            <strong>Telefon: </strong>
-            <a className="underline hover:no-underline" href="tel:+40742074084">
-              0742 074 084
-            </a>
-          </p>
-        </div>
-      </section>
+    <p>
+      <strong>E-mail: </strong>
+      <a className="underline hover:no-underline" href="mailto:info@etcelectrice.net">
+        info@etcelectrice.net
+      </a>
+    </p>
+
+    <p>
+      <strong>Telefon: </strong>
+      <a className="underline hover:no-underline" href="tel:+40742074084">
+        0742 074 084
+      </a>
+    </p>
+
+    <p>
+      <strong>Facebook: </strong>
+      <a
+        className="underline hover:no-underline"
+        href="https://www.facebook.com/eurotopconstruct"
+        target="_blank"
+      >
+        facebook.com/eurotopconstruct
+      </a>
+    </p>
+  </div>
+</section>
     </main>
   );
 }
