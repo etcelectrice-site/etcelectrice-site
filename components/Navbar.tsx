@@ -9,33 +9,26 @@ export function Navbar({ isHU }: NavbarProps) {
   return (
     <header className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+        {/* BAL OLDAL: LOGÓ + SZLOGEN VÍZSZINTESEN */}
         <div className="flex items-center gap-4">
-  {/* Logó */}
-  <div className="relative w-64 h-16">
-    <Image
-      src="/logo-WEB.jpg"
-      alt="Euro Top Construct logo"
-      fill
-      className="object-contain"
-      priority
-    />
-  </div>
+          {/* Logó – nagyobb méret */}
+          <div className="relative w-48 h-12">
+            <Image
+              src="/logo-web.jpg"   // <- a public mappában így legyen elnevezve a fájl
+              alt="Euro Top Construct logo"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
 
-  {/* Szlogen vízszintesen a logó mellett */}
-  <div className="text-sm sm:text-base font-semibold text-slate-900 leading-snug">
-    {isHU
-      ? "Villamos kivitelezés & biztonsági rendszerek"
-      : "Instalații electrice & sisteme de securitate"}
-  </div>
-</div>
-
-  {/* Szlogen vízszintesen a logó mellett */}
-  <div className="text-sm sm:text-base font-semibold text-slate-900 leading-snug">
-    {isHU
-      ? "Villamos kivitelezés & biztonsági rendszerek"
-      : "Instalații electrice & sisteme de securitate"}
-  </div>
-</div>
+          {/* Szlogen a logó mellett */}
+          <div className="text-sm sm:text-base font-semibold text-slate-900 leading-snug">
+            {isHU
+              ? "Villamos kivitelezés & biztonsági rendszerek"
+              : "Instalații electrice & sisteme de securitate"}
+          </div>
+        </div>
 
         {/* JOBB OLDAL: MENÜ + NYELVVÁLTÓ */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -63,5 +56,7 @@ export function Navbar({ isHU }: NavbarProps) {
         </nav>
       </div>
     </header>
+  );
+}
   );
 }
